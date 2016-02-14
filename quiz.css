@@ -1,0 +1,63 @@
+/***************
+Title
+***************/
+.company {
+	font-weight: bold;
+	font-size: 2em;
+	clear:both;
+}
+
+header h1{
+	font-size: 2em;
+}
+
+
+/***************
+Product Cards
+***************/
+
+/*Card Main Layout*/
+article {
+	min-height: 800px;
+	width:30%;
+	border:1px solid lightblue;
+	float:left;
+	margin: 3px 2px 3px 2px;
+}
+
+/* Card Title*/
+article header {
+	border:1px dotted lightgray;
+	
+}
+
+
+article {
+	text-align: center;
+}
+
+/* Card Images*/
+section img {
+    height:240px;
+	width:253px;
+	padding-top:3px;
+}
+
+/* Card Prices and Specs*/
+section header{
+	font-size: 1.5em;
+}
+
+.two p,.three p {
+	font-weight: bold;
+}
+
+
+/*Item Availability*/
+
+.availability {
+	color:yellow;
+	font-weight: bold;
+	background-color: grey;
+	text-align: left;
+}
