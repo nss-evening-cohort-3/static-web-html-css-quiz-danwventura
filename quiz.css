@@ -36,6 +36,11 @@ article {
 	text-align: center;
 }
 
+/*Card Description*/
+.desc {
+	text-align: justify;
+}
+
 /* Card Images*/
 section img {
     height:240px;
@@ -50,6 +55,10 @@ section header{
 
 .two p,.three p {
 	font-weight: bold;
+}
+
+footer {
+	font-size: .75em;
 }
 
 
